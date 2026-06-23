@@ -1,0 +1,18 @@
+---
+description: nirogahian Payamyar — به‌روزرسانی حافظه پروژه بعد از هر تغییر
+globs:
+  - "**/*"
+alwaysApply: true
+---
+
+# حافظه پروژه nirogahian-payamyar
+
+بعد از هر تغییر مرتبط با این پروژه (پچ mu-plugin، deploy، تست، rollback، مکالمه کارفرما):
+
+1. `docs/PROJECT-MEMORY.md` — بخش «وضعیت فعلی سرور» و در صورت نیاز «مسیر پیشنهادی»
+2. `docs/CHANGELOG.md` — یک خط با تاریخ امروز
+3. رمزها فقط در `docs/ACCESS.md` (commit نشود)
+
+ریپو: https://github.com/shehnm/nirogahian-payamyar
+
+قانون deploy: فقط یک `payamyar*.php` فعال در mu-plugins.

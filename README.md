@@ -2,6 +2,9 @@
 
 WordPress mu-plugin patches for **Payamyar** (`wp-payamyar`) on [nirogahian.ir](https://nirogahian.ir).
 
+**حافظه کامل پروژه:** [docs/PROJECT-MEMORY.md](docs/PROJECT-MEMORY.md)  
+**تاریخچه تغییرات:** [docs/CHANGELOG.md](docs/CHANGELOG.md)
+
 ## Problem
 
 - ~700 categories, ~48k posts
