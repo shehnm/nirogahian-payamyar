@@ -8,7 +8,8 @@ WordPress mu-plugin patches for **Payamyar** (`wp-payamyar`) on [nirogahian.ir](
 
 ## نقشه راه (بن‌بست‌ها + مسیر مجاز)
 
-**قبل از هر پچ:** [docs/ROADMAP.md](docs/ROADMAP.md) — راه‌های شکست‌خورده را تکرار نکن.
+**قبل از هر پچ:** [docs/ROADMAP.md](docs/ROADMAP.md)  
+**ثبت اجباری تست/تغییر:** [docs/WORKFLOW.md](docs/WORKFLOW.md)
 
 **حافظه کامل پروژه:** [docs/PROJECT-MEMORY.md](docs/PROJECT-MEMORY.md)  
 **درخواست کارفرما:** [docs/CLIENT-REQUEST.md](docs/CLIENT-REQUEST.md)  

@@ -1,21 +1,29 @@
 ---
-description: nirogahian Payamyar — به‌روزرسانی حافظه پروژه بعد از هر تغییر
+description: nirogahian Payamyar — ثبت اجباری تجربه و جلوگیری از تکرار خطا
 globs:
   - "**/*"
 alwaysApply: true
 ---
 
-# حافظه پروژه nirogahian-payamyar
+# قوانین اجباری پروژه nirogahian-payamyar
 
-بعد از هر تغییر مرتبط با این پروژه:
+## قبل از هر پچ یا تست
 
-1. `docs/ROADMAP.md` — اگر راه جدید به بن‌بست خورد (جدول Dxx)
-2. `docs/PROJECT-MEMORY.md` — وضعیت فعلی سرور
-3. `docs/CHANGELOG.md` — یک خط
-4. `docs/CLIENT-REQUEST.md` — اگر کارفرما چیز جدید گفت
-5. رمزها فقط در `docs/ACCESS.md` (commit نشود)
+1. `docs/ROADMAP.md` — بن‌بست‌ها (Dxx) را بخوان؛ اگر شبیه است STOP
+2. `docs/PROJECT-MEMORY.md` — وضعیت فعلی
+3. `docs/CLIENT-REQUEST.md` — هدف کارفرما
 
-**قبل از هر پچ:** `docs/ROADMAP.md` — بخش بن‌بست‌ها
+## بعد از هر پچ، تست، ترفند، rollback (اجباری)
+
+طبق `docs/WORKFLOW.md`:
+
+- **همیشه:** `CHANGELOG.md` + به‌روز `PROJECT-MEMORY.md`
+- **شکست / سایت down:** ردیف جدید `Dxx` در `ROADMAP.md`
+- **موفقیت مهم:** ردیف جدید `Txx` در `ROADMAP.md`
+- **فایل پچ:** `mu-plugins/production/` یا `development/`
+- **commit + push** (بدون `docs/ACCESS.md`)
+
+کار بدون ثبت در docs = ناقص.
 
 ریپو: https://github.com/shehnm/nirogahian-payamyar
 

@@ -19,8 +19,6 @@ https://github.com/shehnm/nirogahian-payamyar
 
 لوکال: `C:\ponisha\nirogahian-payamyar`
 
-## بعد از هر کار
+## بعد از هر کار (اجباری)
 
-- `docs/PROJECT-MEMORY.md` به‌روز
-- `docs/CHANGELOG.md` یک خط جدید
-- `git commit` + `push` (بدون ACCESS.md)
+طبق **[docs/WORKFLOW.md](WORKFLOW.md)** — همه تست‌ها و تغییرات باید در CHANGELOG + ROADMAP/PROJECT-MEMORY ثبت شوند.
