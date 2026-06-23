@@ -1,0 +1,25 @@
+# secrets
+.env
+.env.*
+credentials.*
+*-secrets.*
+docs/ACCESS.md
+
+# logs / dumps from server
+*.log
+*.sql
+*.sql.gz
+debug.log
+py-profiler.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# WordPress tree if copied locally later
+public_html/
+wp-content/plugins/
+!mu-plugins/
