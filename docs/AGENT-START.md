@@ -6,6 +6,7 @@
 2. **`docs/ACCESS.md`** — همه رمزها و URLها (لوکال، gitignore)
 3. **`docs/CLIENT-REQUEST.md`** — درخواست و انتظار کارفرما
 4. **`docs/PROJECT-MEMORY.md`** — وضعیت فنی و تاریخچه پچ‌ها
+5. **`docs/STAGING-SETUP.md`** — استیجینگ + دسترسی از IP خارج
 
 ## دستور نمونه به اجنت
 
