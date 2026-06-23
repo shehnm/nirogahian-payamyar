@@ -2,7 +2,7 @@
 
 > **منبع حقیقت پروژه.** بعد از هر تغییر (پچ، تست، مکالمه کارفرما، rollback) این فایل و `CHANGELOG.md` را به‌روز کن.
 >
-> آخرین به‌روزرسانی: **۱۴۰۴/۰۴/۰۱** (۲۰۲۶-۰۶-۲۳)
+> آخرین به‌روزرسانی: **۱۴۰۴/۰۴/۰۲** (۲۰۲۶-۰۶-۲۳)
 
 ---
 
@@ -45,7 +45,8 @@
 | ارسال دستی | OK برای دسته‌های تیک‌خورده |
 | ارسال خودکار | **کار نمی‌کند** (اخبار در لیست نیست + HARD_CUTOFF پست‌ها) |
 | بکاپ | کارفرما گرفته (DB روی هاست + فلش) |
-| استیجینگ | هنوز ساخته نشده — **اولویت بالا** |
+| استیجینگ | هنوز ساخته نشده — **اولویت بالا** — راهنما: `docs/STAGING-SETUP.md` |
+| پچ کاندید v6 | `mu-plugins/development/payamyar-cap-v6-phase2.php` — **فقط استیجینگ** |
 
 جزئیات دسترسی: **`docs/ACCESS.md`** (لوکال — رمزها؛ برای اجنت: «از ACCESS بخوان»)  
 درخواست کارفرما: **`docs/CLIENT-REQUEST.md`**  
@@ -145,18 +146,19 @@ timeout / fatal error
 
 ### فاز A — آماده‌سازی
 
-- [ ] استیجینگ: `staging.nirogahian.ir` یا لوکال (DB + wp-content)
+- [ ] استیجینگ: `staging.nirogahian.ir` یا لوکال — **[STAGING-SETUP.md](STAGING-SETUP.md)**
+- [ ] دسترسی خارج: FTP موقت ۷ روزه (DirectAdmin)؛ HTTP نیاز VPS ایران یا لوکال
 - [ ] دانلود `wp-payamyar` به `plugin-ref/` (فقط مطالعه)
 - [ ] دانلود `py-profiler.log` و `debug.log` بعد از هر تست
 
-### فاز B — پچ بعدی (ایده)
+### فاز B — پچ v6 (نوشته شد — در انتظار تست استیجینگ)
 
-بر پایه v4 STABLE **در همان فایل** یا فایل جدید با پیشوند یکتا:
+فایل: `mu-plugins/development/payamyar-cap-v6-phase2.php`
 
-1. `get_terms_args`: `number => 0`, `pad_counts => false`, `update_term_meta_cache => false`
-2. **حذف** `HARD_CUTOFF` برای terms — یک بار load + transient ۱۲h
-3. **حذف** `posts_pre_query => array()` — فقط cap نرم `posts_per_page=200`, `fields=ids`
-4. اگر UI ۷۰۰ checkbox کند شد → AJAX جستجوی دسته (نیاز به خواندن کد افزونه)
+1. `get_terms_args`: `number => 0`, `pad_counts => false`, transient ۱۲h
+2. بدون `HARD_CUTOFF` terms/posts
+3. cap نرم پست: `posts_per_page=200`, `fields=ids` — **بدون** `posts_pre_query => []`
+4. اگر UI ۷۰۰ checkbox کند شد → AJAX جستجوی دسته (فاز بعد)
 
 ### فاز C — پذیرش
 
@@ -183,6 +185,7 @@ timeout / fatal error
 |------|-----|
 | `docs/PROJECT-MEMORY.md` | **این فایل** — حافظه کامل |
 | `docs/CHANGELOG.md` | لاگ تاریخی تغییرات |
+| `docs/STAGING-SETUP.md` | استیجینگ + دسترسی IP خارج |
 | `docs/ROADMAP.md` | **اهداف کارفرما + بن‌بست‌ها + نقشه راه** |
 | `docs/CLIENT-REQUEST.md` | درخواست کامل کارفرما (پونیشا) |
 | `docs/AGENT-START.md` | شروع سریع اجنت |

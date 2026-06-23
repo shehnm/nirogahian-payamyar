@@ -24,4 +24,4 @@
 
 ## Logs
 
-- [ ] `py-profiler.log` shows expected patch version (e.g. `v5c terms stored count=...`)
+- [ ] `py-profiler.log` shows `v6 terms stored count=...` (~700)

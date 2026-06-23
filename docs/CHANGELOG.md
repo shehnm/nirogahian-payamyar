@@ -4,6 +4,12 @@
 
 ---
 
+## 2026-06-23 (ه)
+
+- گام ۱ نقشه راه: `docs/STAGING-SETUP.md` — استیجینگ + راهنمای دسترسی IP خارج (FTP موقت / VPS ایران / لوکال)
+- پچ v6: `mu-plugins/development/payamyar-cap-v6-phase2.php` — pad_counts=false، transient، بدون HARD_CUTOFF
+- ROADMAP گام ۴ انجام شد؛ T05 ثبت شد
+
 ## 2026-06-23 (د)
 
 - `docs/WORKFLOW.md` — قانون اجباری ثبت همه تست/پچ/ترفند

@@ -9,7 +9,8 @@ WordPress mu-plugin patches for **Payamyar** (`wp-payamyar`) on [nirogahian.ir](
 ## نقشه راه (بن‌بست‌ها + مسیر مجاز)
 
 **قبل از هر پچ:** [docs/ROADMAP.md](docs/ROADMAP.md)  
-**ثبت اجباری تست/تغییر:** [docs/WORKFLOW.md](docs/WORKFLOW.md)
+**ثبت اجباری تست/تغییر:** [docs/WORKFLOW.md](docs/WORKFLOW.md)  
+**استیجینگ + دسترسی خارج:** [docs/STAGING-SETUP.md](docs/STAGING-SETUP.md)
 
 **حافظه کامل پروژه:** [docs/PROJECT-MEMORY.md](docs/PROJECT-MEMORY.md)  
 **درخواست کارفرما:** [docs/CLIENT-REQUEST.md](docs/CLIENT-REQUEST.md)  
@@ -66,4 +67,5 @@ See [docs/DEPLOY.md](docs/DEPLOY.md) and [docs/ROLLBACK.md](docs/ROLLBACK.md).
 | Patch | Role |
 |-------|------|
 | `payamyar-surgical-cap-v4-STABLE-4624.php` | Production stable — 3 categories, manual send OK |
-| `payamyar-cap-v5-phase2.php` | Phase 2 WIP — not production-ready |
+| `payamyar-cap-v5-phase2.php` | Phase 2 v5 — failed on prod, reference only |
+| `payamyar-cap-v6-phase2.php` | Phase 2 v6 candidate — **staging only** |
