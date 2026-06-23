@@ -113,6 +113,8 @@ timeout / fatal error
 
 ## ۵. تاریخچه تلاش‌ها
 
+> جزئیات بن‌بست و مسیر مجاز: **[ROADMAP.md](ROADMAP.md)**
+
 | نسخه | کار | نتیجه |
 |------|-----|--------|
 | پچ ~۴۳۸۲ | اولیه | سایت بالا، لیست دسته خالی |
@@ -181,8 +183,8 @@ timeout / fatal error
 |------|-----|
 | `docs/PROJECT-MEMORY.md` | **این فایل** — حافظه کامل |
 | `docs/CHANGELOG.md` | لاگ تاریخی تغییرات |
+| `docs/ROADMAP.md` | **اهداف کارفرما + بن‌بست‌ها + نقشه راه** |
 | `docs/CLIENT-REQUEST.md` | درخواست کامل کارفرما (پونیشا) |
-| `docs/AGENT-START.md` | دستور شروع برای اجنت |
 | `docs/ACCESS.md` | رمزها (لوکال، gitignore) |
 | `mu-plugins/production/` | پچ روی سرور / rollback |
 | `mu-plugins/development/` | کاندیدای بعدی |

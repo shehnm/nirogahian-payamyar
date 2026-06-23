@@ -2,6 +2,14 @@
 
 WordPress mu-plugin patches for **Payamyar** (`wp-payamyar`) on [nirogahian.ir](https://nirogahian.ir).
 
+## اهداف (خواست کارفرما)
+
+همه دسته‌ها در پیام‌یار + ارسال خودکار + سایت پایدار — جزئیات: [docs/CLIENT-REQUEST.md](docs/CLIENT-REQUEST.md)
+
+## نقشه راه (بن‌بست‌ها + مسیر مجاز)
+
+**قبل از هر پچ:** [docs/ROADMAP.md](docs/ROADMAP.md) — راه‌های شکست‌خورده را تکرار نکن.
+
 **حافظه کامل پروژه:** [docs/PROJECT-MEMORY.md](docs/PROJECT-MEMORY.md)  
 **درخواست کارفرما:** [docs/CLIENT-REQUEST.md](docs/CLIENT-REQUEST.md)  
 **شروع اجنت (دسترسی‌ها):** [docs/AGENT-START.md](docs/AGENT-START.md) — رمزها در `docs/ACCESS.md` (لوکال)  

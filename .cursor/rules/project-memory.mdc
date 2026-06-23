@@ -7,14 +7,15 @@ alwaysApply: true
 
 # حافظه پروژه nirogahian-payamyar
 
-بعد از هر تغییر مرتبط با این پروژه (پچ mu-plugin، deploy، تست، rollback، مکالمه کارفرما):
+بعد از هر تغییر مرتبط با این پروژه:
 
-1. `docs/PROJECT-MEMORY.md` — بخش «وضعیت فعلی سرور» و در صورت نیاز «مسیر پیشنهادی»
-2. `docs/CHANGELOG.md` — یک خط با تاریخ امروز
-3. `docs/CLIENT-REQUEST.md` — اگر کارفرما چیز جدید گفت
-4. رمزها فقط در `docs/ACCESS.md` (commit نشود)
+1. `docs/ROADMAP.md` — اگر راه جدید به بن‌بست خورد (جدول Dxx)
+2. `docs/PROJECT-MEMORY.md` — وضعیت فعلی سرور
+3. `docs/CHANGELOG.md` — یک خط
+4. `docs/CLIENT-REQUEST.md` — اگر کارفرما چیز جدید گفت
+5. رمزها فقط در `docs/ACCESS.md` (commit نشود)
 
-**شروع هر سشن:** `docs/AGENT-START.md` و `docs/ACCESS.md`
+**قبل از هر پچ:** `docs/ROADMAP.md` — بخش بن‌بست‌ها
 
 ریپو: https://github.com/shehnm/nirogahian-payamyar
 
