@@ -185,6 +185,7 @@ timeout / fatal error
 | `docs/CHANGELOG.md` | لاگ تاریخی تغییرات |
 | `docs/ROADMAP.md` | **اهداف کارفرما + بن‌بست‌ها + نقشه راه** |
 | `docs/CLIENT-REQUEST.md` | درخواست کامل کارفرما (پونیشا) |
+| `docs/AGENT-START.md` | شروع سریع اجنت |
 | `docs/ACCESS.md` | رمزها (لوکال، gitignore) |
 | `mu-plugins/production/` | پچ روی سرور / rollback |
 | `mu-plugins/development/` | کاندیدای بعدی |
