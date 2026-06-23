@@ -3,7 +3,9 @@
 WordPress mu-plugin patches for **Payamyar** (`wp-payamyar`) on [nirogahian.ir](https://nirogahian.ir).
 
 **حافظه کامل پروژه:** [docs/PROJECT-MEMORY.md](docs/PROJECT-MEMORY.md)  
-**تاریخچه تغییرات:** [docs/CHANGELOG.md](docs/CHANGELOG.md)
+**درخواست کارفرما:** [docs/CLIENT-REQUEST.md](docs/CLIENT-REQUEST.md)  
+**شروع اجنت (دسترسی‌ها):** [docs/AGENT-START.md](docs/AGENT-START.md) — رمزها در `docs/ACCESS.md` (لوکال)  
+**تاریخچه:** [docs/CHANGELOG.md](docs/CHANGELOG.md)
 
 ## Problem
 

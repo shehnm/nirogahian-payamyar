@@ -11,7 +11,10 @@ alwaysApply: true
 
 1. `docs/PROJECT-MEMORY.md` — بخش «وضعیت فعلی سرور» و در صورت نیاز «مسیر پیشنهادی»
 2. `docs/CHANGELOG.md` — یک خط با تاریخ امروز
-3. رمزها فقط در `docs/ACCESS.md` (commit نشود)
+3. `docs/CLIENT-REQUEST.md` — اگر کارفرما چیز جدید گفت
+4. رمزها فقط در `docs/ACCESS.md` (commit نشود)
+
+**شروع هر سشن:** `docs/AGENT-START.md` و `docs/ACCESS.md`
 
 ریپو: https://github.com/shehnm/nirogahian-payamyar
 

@@ -4,6 +4,13 @@
 
 ---
 
+## 2026-06-23 (ب)
+
+- `docs/CLIENT-REQUEST.md` — درخواست کامل کارفرما از مکالمه پونیشا
+- `docs/AGENT-START.md` — راهنمای شروع برای اجنت
+- `docs/ACCESS.md` گسترش یافت (رمزها — لوکال فقط)
+- README و PROJECT-MEMORY لینک به CLIENT-REQUEST و AGENT-START
+
 ## 2026-06-23
 
 - ایجاد ریپو GitHub: https://github.com/shehnm/nirogahian-payamyar
