@@ -167,6 +167,7 @@ Rollback: [ROLLBACK.md](ROLLBACK.md)
 | **T02** | rename پچ قدیمی به `.bak` قبل از v5 | جلوگیری از تداخل نام (بعد از D07 آموخته شد) | همیشه |
 | **T03** | `pad_counts => false` در v5c (تئوری) | هنوز روی پروداکشن تأیید نشده | v6 |
 | **T04** | پیشوند `py_v5_` برای توابع | جلوگیری از redeclare | فایل‌های جدا |
+| **T05** | v6 لوکال Laragon — `terms_pre_query` ۲ آرگومان + `pad_counts false` | ۷۰۰ دسته، ~۵۸MB peak، admin بدون critical | استیجینگ بعدی |
 
 *ردیف T جدید بعد از هر موفقیت اضافه کن.*
 

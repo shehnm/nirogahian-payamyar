@@ -2,25 +2,28 @@
 
 ## Categories
 
-- [ ] Payamyar -> Eitaa: more than 3 categories, includes "اخبار"
-- [ ] Same for Bale, Gap, Rubika
-- [ ] Settings page opens in < 30s, no critical error
+- [x] Local (v6): get_terms = 700 categories
+- [x] Local: Payamyar settings page opens, all categories visible (Eitaa/Rubika)
+- [x] Payamyar -> Eitaa on **production** with v6d: all categories visible + tree
+- [x] Same for Bale, Gap, Rubika, Rubino on production (user confirmed)
+- [x] Settings page opens without critical error (production v6d)
 
 ## Auto-publish
 
-- [ ] Tick required categories in messenger settings, save
-- [ ] Publish test post in category "اخبار" or "اخبار آب"
-- [ ] Message sent automatically (no gray button)
-- [ ] No critical error after publish
+- [x] Tick required categories in messenger settings, save (production)
+- [x] Publish test post in category "اخبار آب" (production, all bots on)
+- [x] `kw_published_in_eitaa` set + delivered to @nirogahian (production)
+- [x] No critical error after publish — all bots on (production v6d)
+- [x] Root cause fixed: get_the_terms array-taxonomy bug (multi-bot Fatal)
 
 ## Manual send (regression)
 
-- [ ] Gray button send still works
+- [x] Gray button send still works (local Eitaa)
 
 ## Stability
 
-- [ ] Front site loads
-- [ ] wp-admin loads
+- [ ] Front site loads (theme missing locally)
+- [x] wp-admin loads (local)
 
 ## Logs
 

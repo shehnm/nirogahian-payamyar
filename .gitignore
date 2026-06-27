@@ -19,7 +19,8 @@ Thumbs.db
 .vscode/
 *.swp
 
-# WordPress tree if copied locally later
-public_html/
-wp-content/plugins/
-!mu-plugins/
+local/
+plugin-ref/
+import/
+*.sql
+*.sql.gz
