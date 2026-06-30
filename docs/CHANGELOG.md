@@ -4,6 +4,12 @@
 
 ---
 
+## 2026-06-29
+
+- پروداکشن: کارفرما ارسال خودکار به @nirogahian (ایتا) را تأیید کرد — v6d پایدار.
+- درخواست جدید: تلگرام درست شود؛ حذف staging.
+- `docs/HANDOFF.md` + `tools/nirogahian-diag.php` برای ادامه با Cursor Agent.
+
 ## 2026-06-27 (د)
 
 - **ریشهٔ Fatal ارسال خودکار پیدا و رفع شد.** انتشار پست با چند روبات روشن، روی پروداکشن critical می‌داد: `array_intersect(): Argument #1 must be of type array, null given` در `kw_sending_eitaa_post`.

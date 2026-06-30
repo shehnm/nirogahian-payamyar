@@ -25,6 +25,15 @@
 - [ ] Front site loads (theme missing locally)
 - [x] wp-admin loads (local)
 
-## Logs
+## Telegram (pending)
 
-- [ ] `py-profiler.log` shows expected patch version (e.g. `v5c terms stored count=...`)
+- [ ] Categories visible in Telegram tab (external messengers)
+- [ ] Auto-publish to @nirogahian on Telegram
+- [ ] Check api.telegram.org from server if send fails
+
+## Cleanup (pending)
+
+- [ ] WP_DEBUG off on production
+- [ ] Remove nirogahian-diag.php from site root
+- [ ] Delete test posts from admin + Eitaa channel
+- [ ] Remove staging.nirogahian.ir subdomain (client request)
